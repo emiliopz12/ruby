@@ -5,7 +5,7 @@
  */
 
 body {
-    background-color: #f8f8f8;
+    background-color: #e3e3e3;
 }
 
 #wrapper {
@@ -365,4 +365,13 @@ table.dataTable thead .sorting:after {
 
 #page-wrapper{
 	background-image: linear-gradient(to bottom,#0084e3,#03678b);
+}
+
+.page-header{
+	color: white;
+}
+
+
+.sidebar{
+	background-color: #e3e3e3;
 }
