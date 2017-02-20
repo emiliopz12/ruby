@@ -6,8 +6,8 @@ class StaticPagesController < ApplicationController
 
 	  # do something with some_parameter and return the results
 
-	  @teams = "hola"
-	  render json: @teams
+	  car = {:make => "bmw", :year => "2003"}
+	  render json: car
 	end
   
   def home

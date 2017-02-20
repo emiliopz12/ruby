@@ -7,11 +7,11 @@ Rails.application.routes.draw do
 	  # end
   # end
   
-  resources :rest do
-  member do
-    get 'pp'
+  resources :static_pages do
+	  member do
+		get 'pp'
+	  end
   end
-end
 
   get 'static_pages/blank'
 
