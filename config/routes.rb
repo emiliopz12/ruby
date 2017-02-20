@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
   root 'static_pages#home'
-  
-  get 'static_pages/pp'
 
   get 'static_pages/blank'
 
