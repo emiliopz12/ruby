@@ -1,6 +1,11 @@
 class StaticPagesController < ApplicationController
 
-  helper_method :pp
+  respond_to :js, :json, :html
+
+  def show
+    @hola = "holaaaa"
+    respond_with @hola
+  end
 
   def pp
 	@hola = "holaaaa"
