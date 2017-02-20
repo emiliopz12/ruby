@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root 'static_pages#home'
   
-  resources :books do
+  resources :static_pages do
 	  collection do
 		get 'test'
 	  end
