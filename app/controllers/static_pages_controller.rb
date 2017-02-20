@@ -30,6 +30,7 @@ class StaticPagesController < ApplicationController
   end
 
   def login
+	@hola = "holaaaa"
   end
 
   def morris
