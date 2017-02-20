@@ -373,5 +373,9 @@ table.dataTable thead .sorting:after {
 
 
 .sidebar{
-	background-color: #e3e3e3;
+	background-image: -webkit-linear-gradient(top,#0084e3,#03678b);
+}
+
+.nav>li>a{
+	color: white;
 }
