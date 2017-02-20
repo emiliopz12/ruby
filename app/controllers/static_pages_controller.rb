@@ -1,11 +1,5 @@
 class StaticPagesController < ApplicationController
 
-  respond_to :js, :json, :html
-
-  def show
-    @hola = "holaaaa"
-    respond_with @hola
-  end
   
   def home
   end
