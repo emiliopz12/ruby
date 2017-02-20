@@ -1,5 +1,12 @@
 class StaticPagesController < ApplicationController
 
+
+  def pp
+	@hola = "holaaaa"
+    respond_to do |format|
+        format.js
+    end
+  end
   
   def home
   end
