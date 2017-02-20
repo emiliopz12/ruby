@@ -61,7 +61,7 @@ $(function() {
         resize: true,
 		pointFillColors: ['#ffffff'],
 		pointStrokeColors: ['black'],
-		lineColors: ['red', 'blue'],
+		lineColors: ['red', 'blue']
     });
 
     Morris.Donut({
