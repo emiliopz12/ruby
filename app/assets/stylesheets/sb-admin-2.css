@@ -356,3 +356,7 @@ table.dataTable thead .sorting:after {
 .navbar{
 	    background-image: linear-gradient(to bottom,#0084e3,#03678b);
 }
+
+.page-wrapper{
+		background-image: linear-gradient(to bottom,#0084e3,#03678b);
+}
