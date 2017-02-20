@@ -74,7 +74,8 @@ $(function() {
             label: "Mail-Order Sales",
             value: 20
         }],
-        resize: true
+        resize: true,
+		gridTextColor: 'white'
     });
 
     Morris.Bar({
@@ -112,7 +113,8 @@ $(function() {
         ykeys: ['a', 'b'],
         labels: ['Series A', 'Series B'],
         hideHover: 'auto',
-        resize: true
+        resize: true,
+		gridTextColor: 'white'
     });
 
 });
