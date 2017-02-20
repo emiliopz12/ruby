@@ -6,7 +6,7 @@ class StaticPagesController < ApplicationController
 
 	  # do something with some_parameter and return the results
 
-	  @teams = Team.all
+	  @teams = "hola"
 	  render json: @teams
 	end
   
