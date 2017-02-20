@@ -1,6 +1,6 @@
 class StaticPagesController < ApplicationController
 
-  helper_method: pp
+  helper_method :pp
 
   def pp
 	@hola = "holaaaa"
