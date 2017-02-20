@@ -1,9 +1,10 @@
 class StaticPagesController < ApplicationController
 
-  helper_method :pp
-  
-  def pp
+  respond_to :json
 
+  def pp
+	  @vote = "holaaaa"
+	  respond_with @vote
   end
   
   def home
