@@ -367,10 +367,6 @@ table.dataTable thead .sorting:after {
 	background-color: #d9e0e7;
 }
 
-.page-header{
-	color: white;
-}
-
 
 .sidebar{
 	background-image: -webkit-linear-gradient(top,#0084e3,#03678b);
