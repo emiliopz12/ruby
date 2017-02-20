@@ -368,7 +368,7 @@ table.dataTable thead .sorting:after {
 }
 
 
-.sidebar, svg{
+svg{
 	background-image: -webkit-linear-gradient(top,#0084e3,#03678b);
 }
 
