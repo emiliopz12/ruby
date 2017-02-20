@@ -352,11 +352,3 @@ table.dataTable thead .sorting:after {
 .panel-yellow a:hover {
     color: #df8a13;
 }
-
-.navbar{
-	    background-image: linear-gradient(to bottom,#0084e3,#03678b);
-}
-
-.page-wrapper{
-		background-image: linear-gradient(to bottom,#0084e3,#03678b);
-}
