@@ -353,15 +353,15 @@ table.dataTable thead .sorting:after {
     color: #df8a13;
 }
 
-/* .navbar{ */
-	/* margin-bottom: 0; */
-    /* width: 100%; */
-    /* z-index: 50; */
-    /* top: 0; */
-    /* position: fixed!important; */
-    /* border-radius: 0!important; */
-    /* font-family: helvlight; */
-/* } */
+.navbar{
+	margin-bottom: 0;
+    width: 100%;
+    z-index: 50;
+    top: 0;
+    position: fixed!important;
+    border-radius: 0!important;
+    font-family: helvlight;
+ }
 
 #page-wrapper{
 	background-color: #d9e0e7;
