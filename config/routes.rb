@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
   root 'static_pages#home'
+  
+  resources :books do
+	  collection do
+		get 'test'
+	  end
+  end
 
   get 'static_pages/blank'
 

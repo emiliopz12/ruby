@@ -1,11 +1,13 @@
 class StaticPagesController < ApplicationController
 
-  respond_to :json
+ def test
 
-  def pp
-	  @vote = "holaaaa"
-	  respond_with @vote
+  @test="holaaaaa"
+  respond_do |format|
+    format.html
+    format.json {render json: @test}
   end
+end
   
   def home
   end
