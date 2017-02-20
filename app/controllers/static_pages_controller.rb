@@ -1,6 +1,7 @@
 class StaticPagesController < ApplicationController
 
-
+  helper_method :pp
+  
   def pp
 
   end
