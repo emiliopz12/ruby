@@ -1,6 +1,8 @@
 $(function() {
 
     $('#side-menu').metisMenu();
+	
+	console.log("holllaa")
 
 });
 

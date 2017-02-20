@@ -1,4 +1,11 @@
 class StaticPagesController < ApplicationController
+
+  helper_method: pp
+
+  def pp
+	@hola = "holaaaa"
+  end
+  
   def home
   end
 
