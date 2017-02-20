@@ -6,10 +6,6 @@ class StaticPagesController < ApplicationController
     @hola = "holaaaa"
     respond_with @hola
   end
-
-  def pp
-	@hola = "holaaaa"
-  end
   
   def home
   end
