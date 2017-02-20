@@ -59,9 +59,7 @@ $(function() {
         pointSize: 2,
         hideHover: 'auto',
         resize: true,
-		pointFillColors: ['#ffffff'],
-		pointStrokeColors: ['black'],
-		lineColors: ['red', 'blue']
+		gridTextColor: 'white'
     });
 
     Morris.Donut({
