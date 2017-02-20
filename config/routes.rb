@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 	  # end
   # end
   
-  resources :static_pages do
+  resources :rest do
   member do
     get 'pp'
   end
