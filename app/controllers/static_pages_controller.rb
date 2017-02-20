@@ -1,10 +1,14 @@
 class StaticPagesController < ApplicationController
 
- def test
+    helper_method :pp
 
-  @test="holaaaaa"
+	def pp
 
-end
+	  # do something with some_parameter and return the results
+
+	  @teams = Team.all
+	  render json: @teams
+	end
   
   def home
   end

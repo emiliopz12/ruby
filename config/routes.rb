@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
   root 'static_pages#home'
   
-  resources :static_pages do
-	  collection do
-		get 'test'
-	  end
+resources :static_pages do
+  member do
+    get 'pp'
   end
+end
 
   get 'static_pages/blank'
 
