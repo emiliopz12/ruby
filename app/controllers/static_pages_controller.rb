@@ -1,13 +1,10 @@
 class StaticPagesController < ApplicationController
 
- # def test
+ def test
 
-  # @test="holaaaaa"
-  # respond_do |format|
-    # format.html
-    # format.json {render json: @test}
-  # end
-# end
+  @test="holaaaaa"
+
+end
   
   def home
   end
