@@ -5,7 +5,7 @@
  */
 
 body {
-    background-color: #e3e3e3;
+    background-color: #d9e0e7;
 }
 
 #wrapper {
@@ -364,7 +364,7 @@ table.dataTable thead .sorting:after {
 }
 
 #page-wrapper{
-	background-image: linear-gradient(to bottom,#0084e3,#03678b);
+	background-color: #d9e0e7;
 }
 
 .page-header{
