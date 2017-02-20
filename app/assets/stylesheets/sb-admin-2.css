@@ -363,6 +363,6 @@ table.dataTable thead .sorting:after {
     font-family: helvlight;
 }
 
-.page-wrapper{
+#page-wrapper{
 	background-image: linear-gradient(to bottom,#0084e3,#03678b);
 }
